@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://graph.org/file/f01e7bd7927598029b373.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/1952a444153c58c5e511d.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -33,8 +33,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "angel-luciferbot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lucifer_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "cinema")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -45,9 +45,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'tgnvs')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
 IMDB = is_enabled((environ.get('IMDB', 'true')), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "📂 File Name ➠  {file_caption}\n\n🔘 𝑺𝒊𝒛𝒆 ➟ <i>{file_size}</i>\n\n〽️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @tgnvs\n\nShare and Support us❤️\n\n🎯 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 👇\n\n<b>[🧲 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 🧲](https://t.me/nvsmovielink)</b>\n\n<b>[🧩 𝐌ᴀɪ𝐍 𝐆ʀ𝐎ᴜ𝐏 🧩](https://t.me/+ONSD-vaHdJliOWQ9)</b>")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "📂 File Name ➠  {file_caption}\n\n🔘 𝑺𝒊𝒛𝒆 ➟ <i>{file_size}</i>\n\n〽️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @tgnvs\n\nShare and Support us❤️\n\n🎯 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 👇\n\n<b>[🧲 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 🧲](https://t.me/nvsmovielink)</b>\n\n<b>[🧩 𝐌ᴀɪ𝐍 𝐆ʀ𝐎ᴜ𝐏 🧩](https://t.me/+ONSD-vaHdJliOWQ9)</b>")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @nvsmovielink")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "📂 File Name ➠  {file_caption}\n\n🔘 𝑺𝒊𝒛𝒆 ➟ <i>{file_size}</i>\n\n〽️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @CinemaCompanyofficials\n\nShare and Support us❤️\n\n🎯 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 👇\n\n<b>[🧲 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 🧲](https://t.me/CinemaCompanyOffiz)</b>\n\n<b>[🧩 𝐌ᴀɪ𝐍 𝐆ʀ𝐎ᴜ𝐏 🧩](https://t.me/CinemaCompanyMovie)</b>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "📂 File Name ➠  {file_caption}\n\n🔘 𝑺𝒊𝒛𝒆 ➟ <i>{file_size}</i>\n\n〽️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @CinemaCompanyofficials\n\nShare and Support us❤️\n\n🎯 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 👇\n\n<b>[🧲 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 🧲](https://t.me/CinemaCompanyOffiz)</b>\n\n<b>[🧩 𝐌ᴀɪ𝐍 𝐆ʀ𝐎ᴜ𝐏 🧩](https://t.me/CinemaCompanyMovie)</b>")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @CinemaCompanyofficials")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", 10)
