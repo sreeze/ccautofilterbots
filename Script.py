@@ -1,15 +1,15 @@
 class script(object):
-    START_TXT = """<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = """<b>Hello {} 👋🏻 Im a movie provider bot of @CinemaCompanyofficials I can share Movies and Series 😁.</b>
     
-  𝙅𝙤𝙞𝙣 @nvsmovielink
+  𝙅𝙤𝙞𝙣 @CinemaCompanyOffiz
 
 ○ Notice 📙:-
 
 ○Dont Spam Me...🤒
 
-😎 Powered by @tgnvs
+😎 Powered by @CinemaCompanyofficials
 
-©️ Maintained By @nvscloudx
+©️ Maintained By @CinemaCompanyofficials
 """
 
     HELP_TXT = """𝙷𝙴𝚈 {}
@@ -19,20 +19,20 @@ class script(object):
 
 ○Dont Spam Me...🤒
 
-😎 Powered by @tgnvs @nvsmovielink
+😎 Powered by @CinemaCompanyofficials
 
-©️ Maintained By @nvscloudx"""
+©️ Maintained By @CinemaCompanyofficials"""
 
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=http://t.me/angel_luciferbot><b>𝙻𝚄𝙲𝙸𝙵𝙴𝚁 𝙼𝙾𝚁𝙽𝙸𝙽𝙶𝚂𝚃𝙰𝚁</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/nvscloudx><b>𝙽𝚅𝚂𝙲𝙻𝙾𝚄𝙳𝚇</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/cinemacompany_manager_bot><b>CINEMA COMPANY</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/sreehari3><bsSHb></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : 𝚅𝙿𝚂\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/tgnvs><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : KOYEB\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/CinemaCompanyofficials><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
-» Contact Me @tgnvs<b>"""
+» Contact Me @CinemaCompanyDiscussion<b>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -58,7 +58,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/tgnvs)</code>
+<code>[Button Text](buttonurl:https://t.me/CinemaCompanyofficials)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
