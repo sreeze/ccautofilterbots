@@ -74,8 +74,8 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+ONSD-vaHdJliOWQ9'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CinemaCompanyMovie'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CinemaCompanyOffiz')
         ]
     )
    
@@ -89,7 +89,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/tgnvs')]
+    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/CinemaCompanyofficials')]
 )
     if n_offset == 0:
         btn.append(
@@ -140,7 +140,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/nvsmovielink><b>Ask Admins to add in this group.</b></a>", disable_web_page_preview=True)
+            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/CinemaCompanyofficials><b>Ask Admins to add in this group.</b></a>", disable_web_page_preview=True)
             await asyncio.sleep(10)
             await k.delete()
 
@@ -413,9 +413,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs')
+            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/CinemaCompanyOffiz')
             ],[
-            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/CinemaCompanyMovie')
             ],[
             InlineKeyboardButton('😊 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
         ]]
@@ -676,7 +676,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/nvstg')]
+    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/CinemaCompanyDiscussion')]
 )
 
     
@@ -684,8 +684,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+ONSD-vaHdJliOWQ9'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CinemaCompanyMovie'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CinemaCompanyOffiz')
         ]
     )
     
